@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    line-height: 1,15;
+    /* text-size-adjust: 100%; */
+    /* scroll-behavior: smooth !important; */
+}
+body {
+    background-color: #fff;
+    font-family: "Poppins, IranYekan, sans-serif";
+}
+
+.header {
+padding: 16PX 0;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.header-container{
+    position: sticky;
+    top: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 700px;
+}
+
+.left-header_icon {
+width: 227px;
+}
+
+.left-header_icon a img {
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+font-size: 20px;
+}
+
+.left-header_nav {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.left-header_nav-ul {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 15px;
+}
+.left-header_nav-li {
+    font-size: 18px;
+list-style-type: none;
+margin-right: 3px;
+}
+
+.left-header_nav-li:hover a {
+color: #e12179;
+}
+
+.left-header_nav-li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #242424;
+    font-size: 16px;
+    margin-right: 5px;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    font-family: Poppins, IranYekan, sans-serif !important;
+    line-height: 160% !important;
+    letter-spacing: .0025em !important;
+    transition: all .2s ease-in;
+}
+
+.left-header_nav-li a svg{
+ width: 10px;
+}
+
+
+.right-header{
+
+}
+
+.left-button{
+margin-right: 20px;
+border: 1px solid #ccc;
+border-radius: 8px;
+padding: 9px;
+width: 120px;
+background-color: transparent;
+}
+.right-button{
+background-color: #e12179;
+border: 1px solid #9f1655;
+border-radius: 8px;
+padding: 9px;
+width: 145px;
+text-wrap: nowrap;
+color: #fff;
+box-shadow: inset 0 3px 5px transparent, 0 1px 1.8px #9f1655;
+transition: a .2s ease-in;
+}
+.right-button:hover{
+    background-color: #e9448e;
+}
+
