@@ -108,9 +108,10 @@ width: 145px;
 text-wrap: nowrap;
 color: #fff;
 box-shadow: inset 0 3px 5px transparent, 0 1px 1.8px #9f1655;
-transition: a .2s ease-in;
+transition: all .2s ease-in;
 }
 .right-button:hover{
     background-color: #e9448e;
 }
+
 
