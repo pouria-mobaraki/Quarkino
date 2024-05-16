@@ -155,17 +155,23 @@ transition: all .2s ease-in;
     line-height: 24px;
 }
 
-.menu-container_part1 a {
+.menu-container_part1 a,.menu-container_part2 a {
     padding: 10px 0 10px 10px;
     display: block;
     transition: all .2s ease-in;
 }
 
-.menu-container_part1 a:hover{
+.menu-container_part1 a:hover,.menu-container_part2 a:hover{
 color: #e12179;
 }
 
 .menu-container_part2{
+    padding: 30px;
+    width: 100%;
+    left: 30px;
+}
 
+.menu-container_part2 a {
+    display: block;
 }
 
