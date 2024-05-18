@@ -220,3 +220,112 @@ color: #e12179;
     opacity: 1;
     visibility: visible;
 }
+.left-header_nav-ul :nth-child(5):hover .menu-container2_ul{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* home section */
+.home .home-container {
+    min-height: 80vh;
+    margin-bottom: 30px;
+}
+
+.home-container-left_content {
+    margin-top: 60px !important;
+    background-image: url(img/home/hero-bg.329e885b.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 90px;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.home-container-left_content-title{
+    margin-top: 0;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-transform: capitalize !important;
+    color: #242424;
+    font-weight: 500 !important;
+    font-size: 58px !important;
+    font-family: Poppins, IranYekan, sans-serif !important;
+    line-height: 152% !important;
+    letter-spacing: -.005em !important;
+}
+.title-replace-list{
+    margin: 0 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 81px;
+}
+
+.title-replace-list_animation:first-child{
+    animation: text-animation 8s infinite;
+    animation-duration: 8s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: text-animation;
+    animation-timeline: auto;
+    animation-range-start: normal;
+}
+
+@keyframes text-animation {
+    0% {
+        margin-top: 0;
+    }
+    
+    10% {
+        margin-top: 0;
+    }
+    20% {
+        margin-top: -5.62rem;
+    }
+    30% {
+        margin-top: -5.62rem;
+    }
+    40% {
+        margin-top: -11.24rem;
+    }
+    60% {
+        margin-top: -11.24rem;
+    }
+    70% {
+        margin-top: -5.62rem;
+    }
+    80% {
+        margin-top: -5.62rem;
+    }
+    90% {
+        margin-top: 0;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+
+.title-replace-list_animation{
+    color: #e12179;
+}
+
+.home-container-left_content_description {
+    font-weight: 400 !important;
+    font-size: 17px !important;
+    font-family: Poppins, IranYekan, sans-serif !important;
+    line-height: 176% !important;
+    letter-spacing: .005em !important;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #505050;
+}
