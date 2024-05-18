@@ -10,7 +10,12 @@ body {
 }
 
 .header {
-padding: 16PX 0;
+    padding: 16PX 0;
+    padding: 16PX 0;
+    position: sticky;
+    top: 0;
+    z-index: 15;
+    background: #fff;
 }
 
 .container {
@@ -20,9 +25,6 @@ padding: 16PX 0;
     padding-left: 15px;
 }
 .header-container{
-    position: sticky;
-    top: 0;
-    z-index: 15;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -232,7 +234,7 @@ color: #e12179;
 }
 
 .home-container-left_content {
-    margin-top: 60px !important;
+    margin-top: 60px ;
     background-image: url(img/home/hero-bg.329e885b.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -243,6 +245,7 @@ color: #e12179;
     align-items: flex-start;
     height: 100%;
 }
+
 
 .home-container-left_content-title{
     margin-top: 0;
@@ -320,12 +323,76 @@ color: #e12179;
 }
 
 .home-container-left_content_description {
-    font-weight: 400 !important;
-    font-size: 17px !important;
-    font-family: Poppins, IranYekan, sans-serif !important;
-    line-height: 176% !important;
-    letter-spacing: .005em !important;
+    font-weight: 400 ;
+    font-size: 17px ;
+    font-family: Poppins, IranYekan, sans-serif ;
+    line-height: 176% ;
+    letter-spacing: .005em ;
     margin-top: 0;
     margin-bottom: 30px;
     color: #505050;
+}
+.left-contetnt-button {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.left-contetnt-button_left {
+    width: 151px ;
+    height: 48px ;
+    font-size: 15px ;
+    border-color: #cd1c6d ;
+    background-color: #e12179;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    text-shadow: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    font-weight: 500;
+    transition: all .3s ease;
+}
+.left-contetnt-button_left:hover {
+    background-color: #e9448e;
+}
+.left-contetnt-button_right {
+    width: 126px ;
+    height: 48px ;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 6px;
+    text-shadow: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 2px;
+    font-weight: 500;
+    border-color: #ccc ;
+    background-color: transparent ;
+    box-shadow: none ;
+    border: 1px solid #242424 ;
+    color: #505050;
+    transition: all .3s ease;
+}
+
+.left-contetnt-button_right:hover {
+    color: #ccc;
+    border-color:#ccc ;
+}
+
+/* right contetnt */
+.home-container-right_content{
+
+}
+.home-container-right_content img {
+    height: 100%;
+    margin-top: 100px;
+    margin-left: 15px;
 }
