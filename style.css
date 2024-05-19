@@ -5,7 +5,7 @@
     /* scroll-behavior: smooth !important; */
 }
 body {
-    background-color: #fff;
+    background-color: #007aff;
     font-family: "Poppins, IranYekan, sans-serif";
 }
 
@@ -426,7 +426,7 @@ color: #e12179;
     padding: 20px;
     border-radius: 20px;
     background-color: #fff;
-    box-shadow: 0 4px 40px rgba(0, 0, 0, .05);
+    box-shadow: 0 4px 40px rgba(0, 0, 0, .07);
     cursor: default;
     min-height: 250px;
 }
