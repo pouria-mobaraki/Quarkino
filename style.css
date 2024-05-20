@@ -630,3 +630,107 @@ color: #e12179;
 .part3-content__button  a:hover{
     background-color: #e74d94;
 }
+
+
+
+/* part4 client say */
+
+.part4-content {
+    margin-bottom: 50px;
+}
+
+.client-content {
+    display: flex;
+}
+
+.client-content__left {
+    width: 40%;
+}
+
+.client-content__left img {
+    width: 100%;
+    margin-top: 20px;
+    border-style: none;
+}
+
+.client-content__right {
+    width: 60%;
+}
+
+.client-content-right__title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.client-content-right__title h4 {
+    margin-top: 0 ;
+    margin-bottom: 20px;
+    color: #242424 ;
+    font-weight: 600 ;
+    font-size: 46px ;
+    line-height: 72px ;
+    text-transform: none;
+    letter-spacing: .0025em;
+    font-family: Poppins, IranYekan, sans-serif ;
+}
+
+.client-personal {
+    right: 84px;
+    position: relative;
+    width: calc(100% + 100px);
+    background-color: #fff;
+    top: 13px;
+}
+
+.client-personal__content {
+    position: relative;
+    padding-left: 27px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, .05);
+}
+
+.client-logo {
+    position: relative;
+    top: -22px;
+    margin-bottom: 20px;
+}
+
+.client-personal__say {
+    /* padding: 50px 30px 30px; */
+    border-radius: 20px;
+    background-color: #fff;
+    margin-bottom: 35px;
+}
+
+.client-personal__say p {
+    color: #505050;
+    font-size: 17px !important;
+    font-weight: 400 ;
+    font-size: 15px ;
+    font-family: Poppins, IranYekan, sans-serif ;
+    line-height: 160% ;
+    letter-spacing: .0025em
+}
+
+.profile-pic-career img{
+border-radius: 100%;
+padding-right: 5px;
+}
+.profile-pic-career .profile-name{
+    font-family: Poppins, IranYekan, sans-serif;
+    letter-spacing: .0025em;
+    color: #242424;
+    font-weight: 500 ;
+    font-size: 15px ;
+    line-height: 24px;
+}
+
+.profile-pic-career .profile-career {
+    color: #242424;
+    font-weight: 400 ;
+    font-size: 14px ;
+    line-height: 24px;
+    font-family: Poppins, IranYekan, sans-serif;
+}
