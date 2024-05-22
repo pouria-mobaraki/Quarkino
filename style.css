@@ -826,3 +826,100 @@ padding-right: 5px;
     border-radius: 100%;
     border: 1px;
 }
+
+
+/* part5 banner cover  */
+
+.cover-container {
+    margin-bottom: 50px;
+    border-radius: 20px;
+    background-color: #4f5a8f;
+    position: relative;
+    height: 370px;
+    padding-top: 32px;
+}
+.flex-content__container-cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+.dot-img1 {
+    position: absolute;
+    top: 0;
+}
+.dot-img2{
+    position: absolute;
+    right: 0;
+}
+.cover-container__title{
+    width: 85%;
+    text-align: center;
+    /* margin-top: 61px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover-container__title h2{
+    text-align: center;
+    margin: 0 auto;
+    font-family: Poppins, IranYekan, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: .0025em;
+    color: #fff;
+    font-weight: 500 ;
+    font-size: 33px ;
+    line-height: 56px;
+}
+
+.cover-container__content {
+    margin-top: 46px;
+}
+
+.cover-container__content h6 {
+    padding: 10px 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+    color: #fff ;
+    font-weight: 500 ;
+    font-size: 19px ;
+    line-height: 32px;
+    font-family: Poppins, IranYekan, sans-serif;
+}
+.cover-container__content-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.cover-container__content-button a{
+text-decoration: none;
+background-color: #e12179;
+border: none;
+margin-bottom: 20px ;
+width: 240px ;
+    height: 48px;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins, IranYekan, sans-serif;
+    border-radius: 5px;
+    box-shadow: none;
+    transition: .3s ease;
+}
+
+.cover-container__content-button a:hover {
+    background-color: #e74d94;
+}
