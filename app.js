@@ -50,3 +50,5 @@ let slideIndex = 1
 function slidecircle(slideIndex,){
 
 }
+
+
