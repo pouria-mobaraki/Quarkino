@@ -1054,3 +1054,186 @@ width: 240px ;
   .cover-container__content-button2 a:hover{
     background-color: #e74d94;
  }
+
+ /* part 7  */
+
+ .latest-article {
+    margin-bottom: 50px;
+    /* position: relative; */
+ }
+
+ .lastest-article__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 80px;
+ }
+ .lastest-article__title h4 {
+    color: #242424;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 72px;
+    font-family: Poppins, IranYekan, sans-serif;
+    line-height: 72px;
+ }
+
+ .latest-article__card {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 40px 0 rgba(0, 0, 0, .09);
+    max-width: 365px;
+    cursor: pointer;
+ }
+ .latest-article__card-img {
+
+ }
+ .latest-article__card-img img {
+    border-radius: 10px;
+    width: 100%;
+    height: 247px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+ }
+ .latest-article__card-info {
+
+ }
+
+ .latest-article__card-tag {
+   margin-bottom: 20px;
+ }
+ .latest-article__card-tag span{
+    padding: 4px 24px;
+    border-radius: 8px;
+    background-color: #f2f3f5;
+    color: #242424;
+    font-weight: 400 ;
+    font-size: 13px ;
+    font-family: Poppins, IranYekan, sans-serif ;
+ }
+ .latest-article__card-title {
+margin-bottom: 30px;
+ }
+ .latest-article__card-title h6 {
+    color: #242424;
+    font-weight: 500 ;
+    font-family: Poppins, IranYekan, sans-serif ;
+    letter-spacing: .0015em ;
+    font-size: 19px ;
+    line-height: 168%;
+    opacity: .9;
+ }
+
+ .latest-article__card-profile {
+display: flex;
+align-items: center;
+justify-content: space-between;
+ }
+
+ .latest-article__card-profile_left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .card-profile-left__img {
+   border-radius: 50%;
+   overflow: hidden;
+    width: 48px;
+    height: 48px;
+ }
+
+ .card-profile-left__img img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+ }
+
+ .card-profile-left__name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+ }
+
+ .card-profile-left__name-firstName {
+    color: #242424;
+    font-weight: 500 ;
+    font-size: 13px ;
+    font-family: Poppins, IranYekan, sans-serif;
+    line-height: 24px;
+    opacity: .9;
+ }
+
+ .card-profile-left__name-career {
+    color: #505050;
+    font-weight: 400 ;
+    font-size: 13px ;
+    font-family: Poppins, IranYekan, sans-serif ;
+    opacity: .9;
+    
+ }
+
+ .latest-article__card-profile-right {
+align-self: flex-end;
+display: flex;
+align-items: center;
+color: #505050;
+ }
+
+ .latest-article__card-profile-right__date {
+    color: #505050;
+    font-weight: 400 ;
+    font-size: 13px ;
+    font-family: Poppins, IranYekan, sans-serif ;
+    line-height: 185% ;
+    opacity: .9;
+    border-right: 1px solid #505050;
+    padding-right: 5px;
+ }
+ .latest-article__card-profile-right__time {
+padding-left: 5px;
+color: #505050;
+    font-weight: 400 ;
+    font-size: 13px ;
+    font-family: Poppins, IranYekan, sans-serif ;
+    opacity: .9;
+ }
+
+ .latest-article-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 70px;
+ }
+
+ .latest-article-button a {
+    border: 1px solid #242424 ;
+    border-radius: 8px ;
+    background-color: transparent;
+    box-shadow: inset 0 3px 5px transparent, 0 1px 1.8px #b3b3b3;
+    width: 267px ;
+    height: 48px ;
+    color: #242424 ;
+    font-size: 15px ;
+    line-height: 24px ;
+    text-align: center;
+    text-decoration: none;
+    padding-right: 8px;
+    padding-left: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s;
+    font-family: Poppins, IranYekan, sans-serif ;
+ }
+
+  .latest-article-button a:hover{
+    color: #cd1c6d;
+  }
