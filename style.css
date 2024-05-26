@@ -1237,3 +1237,154 @@ color: #505050;
   .latest-article-button a:hover{
     color: #cd1c6d;
   }
+
+  /* style of footer */
+
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #333;
+  }
+
+  .footer-head {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #a7a7a7;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .footer-head__logo img {
+    width: auto;
+    height: 36px;
+    border-style: none;
+  }
+
+  .footer-head__copyRight span {
+    text-align: center;
+    color: #fff;
+    font-weight: 400 ;
+    font-size: 15px ;
+    font-family: Poppins, IranYekan, sans-serif ;
+    line-height: 185% ;
+    letter-spacing: .0025em ;
+  }
+
+  .newsLetter-title {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-weight: 500 !important;
+    font-family: Poppins, IranYekan, sans-serif;
+    font-size: 19px;
+    line-height: 168%;
+  }
+  .Newsletter-description p{
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px ;
+    font-family: Poppins, IranYekan, sans-serif ;
+    line-height: 160% ;
+    letter-spacing: .0025em;
+  }
+  .footer-form .email {
+    margin-bottom: 32px;
+  }
+
+  .footer-form .email input{
+    border: 0;
+    height: 48px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid #666 ;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff !important
+}
+.form-button {
+    padding-left: 60px ;
+    padding-right: 60px ;
+    border-color: #cd1c6d ;
+    background-color: #e12179 ;
+    height: 48px;
+    border-radius: 6px;
+    transition: all .3s ease;
+}
+
+.form-button a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    cursor: pointer;
+    letter-spacing: .0025em ;
+    font-family: Poppins, IranYekan, sans-serif;
+    
+}
+.form-button:hover{
+    background-color: #e74d94;
+}
+
+.footer-title {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 15px ;
+    line-height: 160%;
+    font-weight: 500 !important;
+    font-family: Poppins, IranYekan, sans-serif !important;
+    letter-spacing: .0015em ;
+}
+
+.footer-link {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-link a ,.footer-link span {
+    display: inline-block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400 ;
+    font-size: 13px ;
+    font-family: Poppins, IranYekan, sans-serif ;
+    line-height: 160% ;
+    letter-spacing: .0025em ;
+    transition: .3s;
+}
+.footer-link a:hover{
+    color: #cd1c6d;
+}
+.whatsApp img , .telegram img , .game img{
+    width: 24px;
+    height: 24px;
+    margin-right: 3px;
+    margin-bottom: 33px;
+}
+
+.footer-last_span {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+
+.footer-socialMedia {
+    display: flex;
+    align-items: center;
+}
+.footer-socialMedia i {
+    width: 28px;
+    height: 28px;
+    color: #fff;
+    font-size: 20px;
+}
