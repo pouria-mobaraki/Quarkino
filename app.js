@@ -1,3 +1,22 @@
+// menu bar
+const barMenu = document.querySelector('.bar-menu')
+
+let flag = false
+barMenu.addEventListener('click',(e)=>{
+    e.preventDefault()
+    console.log('eeee');
+   if(flag===false){
+    barMenu.classList.replace('fa-bars','fa-times')
+    flag=true
+   }else{
+    barMenu.classList.replace('fa-times','fa-bars')
+    flag=false
+   }
+})
+
+
+
+// slider//
 let turn=0
 let clientPersonalContainerWidth = document.querySelector('.client-personal').clientWidth
 
