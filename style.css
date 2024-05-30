@@ -19,7 +19,6 @@ body {
     padding: 16PX 0;
     position: sticky;
     top: 0;
-    z-index: 15;
     background: #fff;
 }
 
@@ -33,6 +32,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 30;
 }
 
 .left-header {
@@ -128,6 +129,7 @@ transition: all .2s ease-in;
 .bar-menu {
    font-size: 25px;
     visibility: hidden;
+    transition: all .3s ease-in;
 }
 
 
@@ -438,6 +440,10 @@ color: #e12179;
     font-family: Poppins, IranYekan, sans-serif;
     margin-bottom: 22px;
 }
+.why-choose-us__content{
+    z-index: -1;
+    position: relative;
+}
 
 .why-choose-us__content-card {
     margin-bottom: 30px;
@@ -506,6 +512,8 @@ color: #e12179;
 }
 .part3-content__flip-cards {
     margin-top: 15px;
+    position: relative;
+    z-index: -1;
 }
 
 .flip-card {
@@ -649,6 +657,8 @@ color: #e12179;
 
 .part4-content {
     margin-bottom: 50px;
+    position: relative;
+    z-index: -1;
 }
 
 .client-content {
@@ -849,6 +859,7 @@ padding-right: 5px;
     position: relative;
     height: 370px;
     padding-top: 32px;
+    z-index: -1;
 }
 .flex-content__container-cover {
     display: flex;
@@ -961,6 +972,8 @@ width: 240px ;
 .part6-content{
     width: 100%;
     box-shadow: 0 4px 40px rgba(0, 0, 0, .07);
+    position: relative;
+    z-index: -1;
 }
 
 .part6-content__item {
@@ -1083,6 +1096,11 @@ width: 240px ;
     line-height: 72px;
     font-family: Poppins, IranYekan, sans-serif;
     line-height: 72px;
+ }
+
+ .latest-article__content{
+    position: relative;
+    z-index: -1;
  }
 
  .latest-article__card {
@@ -1403,7 +1421,14 @@ color: #505050;
     padding-left: 10px;
     padding-right: 10px;
     border-top: 1px solid #ccc;
-    /* display: none; */
+    transform: translateY(-40px);
+    z-index: 999;
+    visibility: hidden;
+    position: sticky;
+    transition: all .3s ease;
+    display: none;
+    
+    
     
 }
 
@@ -1548,7 +1573,8 @@ color: #505050;
         display: none;
     }
     .bar-menu {
-        visibility: visible;
+        display: none;
+        visibility: hidden;
         padding-top: 12px;
     margin-left: 30px;
     cursor: pointer;
@@ -1558,5 +1584,8 @@ color: #505050;
 @media screen and (max-width:990px) {
    .left-button,.right-button {
     display: none;
+   }
+   .bar-menu {
+    visibility: visible;
    }
 }

@@ -1,5 +1,6 @@
 // menu bar or hamburger menu and close button
 const barMenu = document.querySelector('.bar-menu')
+const mobileMenu = document.querySelector('.mobile-menu')
 
 let flag = false
 barMenu.addEventListener('click',(e)=>{
@@ -7,9 +8,15 @@ barMenu.addEventListener('click',(e)=>{
     console.log('eeee');
    if(flag===false){
     barMenu.classList.replace('fa-bars','fa-times')
+    mobileMenu.style.display='block'
+    mobileMenu.style.visibility = 'visible'
+    mobileMenu.style.transform= 'translateY(0px)'
     flag=true
    }else{
     barMenu.classList.replace('fa-times','fa-bars')
+    mobileMenu.style.display='none'
+    mobileMenu.style.transform='translateY(-40px)'
+    mobileMenu.style.visibility = 'hidden'
     flag=false
    }
 })
@@ -29,9 +36,13 @@ arrowMenuMobile.addEventListener('click',()=>{
     console.log('click');
     if(flag===false){
         proDropDownMobile.style.display = 'block'
+        devDropMobile.style.display = 'none'
+        caseDropMobile.style.display = 'none'
         flag=true
     }else{
         proDropDownMobile.style.display = 'none'
+        devDropMobile.style.display = 'none'
+        caseDropMobile.style.display = 'none'
         flag=false
     }
 
@@ -41,9 +52,13 @@ arrowMenuMobile2.addEventListener('click',()=>{
     console.log('click');
     if(flag===false){
         devDropMobile.style.display = 'block'
+        proDropDownMobile.style.display = 'none'
+        caseDropMobile.style.display = 'none'
         flag=true
     }else{
         devDropMobile.style.display = 'none'
+        proDropDownMobile.style.display = 'none'
+        caseDropMobile.style.display = 'none'
         flag=false
     }
 
@@ -53,9 +68,13 @@ arrowMenuMobile3.addEventListener('click',()=>{
     console.log('click');
     if(flag===false){
         caseDropMobile.style.display = 'block'
+        proDropDownMobile.style.display = 'none'
+        devDropMobile.style.display = 'none'
         flag=true
     }else{
         caseDropMobile.style.display = 'none'
+        proDropDownMobile.style.display = 'none'
+        devDropMobile.style.display = 'none'
         flag=false
     }
 
