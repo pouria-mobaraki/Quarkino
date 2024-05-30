@@ -1403,7 +1403,7 @@ color: #505050;
     padding-left: 10px;
     padding-right: 10px;
     border-top: 1px solid #ccc;
-    display: none;
+    /* display: none; */
     
 }
 
@@ -1459,6 +1459,7 @@ color: #505050;
     margin-top: 5px;
     width: 100%;
     padding-left: 1rem;
+    overflow-y: scroll;
 }
 
 .mobile-menu-title {
@@ -1472,6 +1473,7 @@ color: #505050;
     font-family: Poppins, IranYekan, sans-serif !important;
     line-height: 160% ;
     letter-spacing: .0025em ;
+    transition: .3s;
 }
 
 .mobile-menu-title span {
@@ -1479,6 +1481,64 @@ color: #505050;
     padding: 12px 5px;
     text-decoration: none;
 }
+
+.product-dropDown__mobile{
+    background-color: #f7f3f3;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    z-index: 1;
+    display: none;
+}
+.developer-dropDown__mobile {
+    background-color: #f7f3f3;
+    padding: 5px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 40px;
+    display: none;
+}
+
+.case-dropDown__mobile {
+    background-color: #f7f3f3;
+    padding: 5px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 40px;
+    display: none;
+}
+
+.product-li__mobile ,.developer-li__mobile,.case-li__mobile{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 30px;
+    
+    
+}
+
+.product-li__mobile a ,.developer-li__mobile a,.case-li__mobile a{
+    text-decoration: none;
+    color: #242424;
+    font-weight: 400 ;
+    font-size: 15px ;
+    font-family: Poppins, IranYekan, sans-serif !important;
+    line-height: 160% ;
+    letter-spacing: .0025em ;
+}
+
+.mobile-menu-title i:hover {
+    color: #c52c74;
+}
+
+
 
 
 /* resposive */

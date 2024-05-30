@@ -1,4 +1,4 @@
-// menu bar
+// menu bar or hamburger menu and close button
 const barMenu = document.querySelector('.bar-menu')
 
 let flag = false
@@ -13,6 +13,55 @@ barMenu.addEventListener('click',(e)=>{
     flag=false
    }
 })
+
+// click on icin to open dropdown in mobile size//
+
+const arrowMenuMobile = document.querySelector('.arrow-menu__mobile')
+const arrowMenuMobile2 = document.querySelector('.arrow-menu__mobile2')
+const arrowMenuMobile3 = document.querySelector('.arrow-menu__mobile3')
+const proDropDownMobile = document.querySelector('.product-dropDown__mobile')
+const devDropMobile =document.querySelector('.developer-dropDown__mobile')
+const caseDropMobile =document.querySelector('.case-dropDown__mobile')
+
+
+
+arrowMenuMobile.addEventListener('click',()=>{
+    console.log('click');
+    if(flag===false){
+        proDropDownMobile.style.display = 'block'
+        flag=true
+    }else{
+        proDropDownMobile.style.display = 'none'
+        flag=false
+    }
+
+})
+
+arrowMenuMobile2.addEventListener('click',()=>{
+    console.log('click');
+    if(flag===false){
+        devDropMobile.style.display = 'block'
+        flag=true
+    }else{
+        devDropMobile.style.display = 'none'
+        flag=false
+    }
+
+})
+
+arrowMenuMobile3.addEventListener('click',()=>{
+    console.log('click');
+    if(flag===false){
+        caseDropMobile.style.display = 'block'
+        flag=true
+    }else{
+        caseDropMobile.style.display = 'none'
+        flag=false
+    }
+
+})
+
+
 
 
 
