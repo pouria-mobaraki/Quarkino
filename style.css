@@ -509,7 +509,8 @@ color: #e12179;
     line-height: 72px;
     text-transform: capitalize;
     font-family: Poppins, IranYekan, sans-serif ;
-    letter-spacing: .0025em
+    letter-spacing: .0025em;
+    text-align: center;
 }
 .part3-content__flip-cards {
     margin-top: 15px;
@@ -968,6 +969,7 @@ width: 240px ;
     font-size: 46px ;
     line-height: 72px;
     font-family: Poppins, IranYekan, sans-serif ;
+    text-align: center;
 }
 
 .part6-content{
@@ -1604,11 +1606,18 @@ color: #505050;
     }
 }
 
-@media screen and (max-width:990px) {
+@media screen and (max-width:992px) {
    .left-button,.right-button {
     display: none;
    }
    .bar-menu {
     visibility: visible;
+   }
+   .latest-article__content-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
    }
 }
