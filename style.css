@@ -12,6 +12,7 @@
 body {
     background-color: #fff;
     font-family: "Poppins, IranYekan, sans-serif";
+    overflow-x: hidden;
 }
 
 .header {
@@ -1462,6 +1463,11 @@ color: #505050;
     width: 100%;
     font-weight: 400;
     font-family: Poppins, IranYekan, sans-serif;
+    transition: .3s;
+}
+
+.left-button-mobile:hover{
+    background-color: #e74d94;
 }
 
 .right-button-mobile {
@@ -1499,13 +1505,28 @@ color: #505050;
     line-height: 160% ;
     letter-spacing: .0025em ;
     transition: .3s;
+    cursor: pointer;
 }
 
-.mobile-menu-title span {
+/* .mobile-menu-title {
     color: #242424;
     padding: 12px 5px;
     text-decoration: none;
+} */
+.mobile-menu-title__linkHover{
+    color: #242424;
+    padding: 12px 5px;
+    text-decoration: none;
+    transition: .3s;
 }
+.mobile-menu-title__linkHover:hover{
+    color: #c52c74;
+}
+
+.mobile-menu-title a:hover {
+    color: #c52c74;
+}
+
 
 .product-dropDown__mobile{
     background-color: #f7f3f3;
@@ -1562,6 +1583,8 @@ color: #505050;
 .mobile-menu-title i:hover {
     color: #c52c74;
 }
+
+
 
 
 
