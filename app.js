@@ -32,14 +32,19 @@ const caseDropMobile =document.querySelector('.case-dropDown__mobile')
 
 
 
-arrowMenuMobile.addEventListener('click',()=>{
+
+
+arrowMenuMobile.addEventListener('click',(e)=>{
+    e.preventDefault()
     console.log('click');
     if(flag===false){
+        arrowMenuMobile.classList.replace('fa-sort-desc','fa-sort-asc')
         proDropDownMobile.style.display = 'block'
         devDropMobile.style.display = 'none'
         caseDropMobile.style.display = 'none'
         flag=true
     }else{
+        arrowMenuMobile.classList.replace('fa-sort-asc','fa-sort-desc')
         proDropDownMobile.style.display = 'none'
         devDropMobile.style.display = 'none'
         caseDropMobile.style.display = 'none'
@@ -48,14 +53,18 @@ arrowMenuMobile.addEventListener('click',()=>{
 
 })
 
+
+
 arrowMenuMobile2.addEventListener('click',()=>{
     console.log('click');
     if(flag===false){
+        arrowMenuMobile2.classList.replace('fa-sort-desc','fa-sort-asc')
         devDropMobile.style.display = 'block'
         proDropDownMobile.style.display = 'none'
         caseDropMobile.style.display = 'none'
         flag=true
     }else{
+        arrowMenuMobile2.classList.replace('fa-sort-asc','fa-sort-desc')
         devDropMobile.style.display = 'none'
         proDropDownMobile.style.display = 'none'
         caseDropMobile.style.display = 'none'
@@ -67,11 +76,13 @@ arrowMenuMobile2.addEventListener('click',()=>{
 arrowMenuMobile3.addEventListener('click',()=>{
     console.log('click');
     if(flag===false){
+        arrowMenuMobile3.classList.replace('fa-sort-desc','fa-sort-asc')
         caseDropMobile.style.display = 'block'
         proDropDownMobile.style.display = 'none'
         devDropMobile.style.display = 'none'
         flag=true
     }else{
+        arrowMenuMobile3.classList.replace('fa-sort-asc','fa-sort-desc')
         caseDropMobile.style.display = 'none'
         proDropDownMobile.style.display = 'none'
         devDropMobile.style.display = 'none'
