@@ -21,6 +21,7 @@ body {
     position: sticky;
     top: 0;
     background: #fff;
+    z-index: 999;
 }
 
 .container {
@@ -515,7 +516,7 @@ color: #e12179;
 .part3-content__flip-cards {
     margin-top: 15px;
     position: relative;
-    z-index: -1;
+    z-index: 0;
 }
 
 .flip-card {
@@ -660,7 +661,7 @@ color: #e12179;
 .part4-content {
     margin-bottom: 50px;
     position: relative;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 .client-content {

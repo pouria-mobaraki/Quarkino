@@ -1,3 +1,5 @@
+
+
 // menu bar or hamburger menu and close button
 const barMenu = document.querySelector('.bar-menu')
 const mobileMenu = document.querySelector('.mobile-menu')
@@ -108,12 +110,14 @@ for(i=0;i<clientPersonalContentCount.length;i++){
 }
 
 function right(){
+    console.log('sss');
     turn++
     busMove()
    
 }
 
 function left(){
+    console.log('sss');
     turn--
     busMove()
 }
